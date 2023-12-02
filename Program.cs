@@ -94,7 +94,7 @@ class Program
             person.Output();
         }
 
-        Console.WriteLine("\nОсоби з однаковими iменами:");
+        Console.WriteLine("Особи з однаковими iменами:");
         for (int i = 0; i < people.Length - 1; i++)
         {
             for (int j = i + 1; j < people.Length; j++)
